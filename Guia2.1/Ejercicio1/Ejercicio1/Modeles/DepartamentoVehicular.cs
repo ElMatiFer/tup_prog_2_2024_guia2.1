@@ -45,11 +45,11 @@ namespace Ejercicio1.Modeles
             return registroVehiculo;
         }
 
-        public RegistroVehiculo VerRegistro(int idx)
+        public RegistroVehiculo VerRegistro(int i)
         {
-            if (idx >= 0 && idx < CantidadRegistros)
+            if (i >= 0 && i < CantidadRegistros)
             {
-                return registros[idx] as RegistroVehiculo;
+                return registros[i] as RegistroVehiculo;
             }
             return null;
         }
