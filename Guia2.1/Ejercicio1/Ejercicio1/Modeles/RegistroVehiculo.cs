@@ -29,7 +29,7 @@ namespace Ejercicio1.Modeles
         }
         public string VerDetalle()
         {
-            return $"Nombre: {Propietario.Nombre} \nDni: {Propietario.Dni} \nPatente: {Patente} \nSerie: {Serie}";
+            return $"Nombre: {Propietario.Nombre} Dni: {Propietario.Dni} Patente: {Patente} Serie: {Serie}";
         }
     }
 }
